@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #f7ade7; 
+    color: #333;
+  }
+  /* Estilo do Cabeçalho */
+header {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: #a14195; 
+    color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+}
+.logo {
+    height: 150px; /* Altura da imagem (logo) */
+    }
+
+h1 {
+    text-align: center;
+    color: #58114f;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #58114f;
+    background-color: #f3d3e8;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #58114f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #58114f;
+}
